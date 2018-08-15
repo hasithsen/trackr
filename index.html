@@ -1,39 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" href="css/main.css" />
-<title>Trackr | Sign In</title>
-</head>
-<body>
-<!-- Header -->
-	<header id="header">
-	<div class="inner">
-		<a href="index.html" class="logo"><strong>Trackr</strong> Simplified Attendance Tracker</a>
-		<nav id="nav"> 
-		<a href="index.html">About</a>
-		<a href="signin.jsp">Sign In</a>
-		</nav>
-		<a href="#navPanel" class="navPanelToggle">
-		<span class="fa fa-bars"></span></a>
-	</div>
-	</header>
-
-	<!-- Banner -->
-	<section id="banner">
-	<div class="inner">
-		<header>
-		<h1>Sign In to Trackr</h1>
-		</header>
-		
-		<form action="LoginServlet" method="post">
-			<input type="text" name="pid" placeholder="Personal ID" /> <br />
-			<input type="password" name="passwd" placeholder="Password" />
-			Please note all fields are required. <br /> <br />
-			<input type="submit" value="Sign In" /> <br /> <br />
-		</form>
-		</div>
-	</section>
-</body>
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="ISO-8859-1">
+        <meta http-equiv="refresh" content="0; url=/trackr/signin.jsp">
+        <script type="text/javascript">
+            window.location.href = "/trackr/signin.jsp"
+        </script>
+        <title>Trackr | Page Redirection</title>
+    </head>
+    <body>
+        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
+        If you are not redirected automatically, follow this <a href='/trackr/signin.jsp'>link to example</a>.
+    </body>
 </html>

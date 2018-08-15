@@ -13,12 +13,11 @@
 	<!-- Header -->
 	<header id="header">
 	<div class="inner">
-		<a href="index.html" class="logo"><strong>Trackr</strong> Simplified Attendance Tracker</a>
+		<a href="index.html" class="logo"> <strong>Trackr</strong> Simplified Attendance Tracker</a>
 		<nav id="nav"> 
-		<a href="index.html">About</a>
-		<a href="signin.jsp">Sign In</a>
-		</nav>
-		<a href="#navPanel" class="navPanelToggle">
+		<a href="index.html">About</a> 
+		<a href="signin.jsp">Sign In</a> </nav>
+		<a href="#navPanel" class="navPanelToggle"> 
 		<span class="fa fa-bars"></span></a>
 	</div>
 	</header>
@@ -29,15 +28,19 @@
 		<header>
 		<h1>Sign In to Trackr</h1>
 		</header>
-		
+
 		<form action="LoginServlet" method="post">
-			<input type="text" name="pid" placeholder="Personal ID" /> <br />
-			<input type="password" name="passwd" placeholder="Password" />
-			<input type="hidden" name="event" value="signin" />
-			Please note all fields are required. <br /> <br />
-			<input type="submit" value="Sign In" /> <br /> <br />
+			<input type="text" name="pid" placeholder="Personal ID" /> <br /> 
+			<input type="password" name="passwd" placeholder="Password" /> 
+			<input type="hidden" name="event" value="signin" /> 
+			Please note all fields are required. <br /> <br /> 
+			<input type="submit" value="Sign In" />
+			<br /> <br /> <br />
 		</form>
+		<div class="copyright">
+			&copy; 2018. Made with &#10084; in Sri Lanka.
 		</div>
+	</div>
 	</section>
 </body>
 </html>
