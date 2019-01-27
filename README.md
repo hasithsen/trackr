@@ -2,10 +2,10 @@
 ## Attendance Tracking System with geolocation information
 
 #### 'Sign In' page
-![alt text](screenshots/img1.png)
+![screenshot_1](screenshots/img1.png)
 
-![alt text](screenshots/img2.png)
+![screenshot_2](screenshots/img2.png)
 
 
 #### 'Signed In' page
-![alt text](screenshots/img3.png)
+![screenshot_3](screenshots/img3.png)
