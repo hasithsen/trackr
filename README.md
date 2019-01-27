@@ -1,5 +1,5 @@
 # Trackr
-## Attendance Tracking System with location information
+## Attendance Tracking System with geolocation information
 
 #### 'Sign In' page
 ![alt text](screenshots/img1.png)
